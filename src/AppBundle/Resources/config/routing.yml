@@ -1,0 +1,12 @@
+index:
+    path:     /
+    defaults: { _controller: AppBundle:Front:index }
+
+formation:
+    path:     /formation.html
+    defaults: { _controller: AppBundle:Front:formation }
+
+produit:
+    path:     /produit.html
+    defaults: { _controller: AppBundle:Front:produit }
+

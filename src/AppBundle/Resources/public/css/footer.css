@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+footer { background-color:#1c1f26; min-height:350px; font-family: 'Open Sans', sans-serif; }
+footer.footerleft { margin-top:50px; padding:0 360px; }
+footer .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+footer .footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+footer .footerleft p i { width:20px; color:#999;}
+
+
+footer .paddingtop-bottom {  margin-top:50px;}
+footer .footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+footer .footer-ul li { line-height:29px; font-size:12px;}
+footer .footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+footer .footer-ul i { margin-right:10px;}
+footer .footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+footer .social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ 
+ 
+
+ 
+ footer .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+ footer .icon-ul li { line-height:75px; width:100%; float:left;}
+ footer .icon { float:left; margin-right:5px;}
+ 
+ 
+ .copyright { min-height:40px; background-color:#0c1a1e; position: absolute;left: 0;right:0;
+    width: 100%;}
+ .copyright p { text-align:relative; color:#FFF;  margin-bottom:0px;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+ .copyright{
+ 	margin-bottom: 0;
+ }
+footer .social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+footer .footer-social li{
+     float:left;
+ }
+footer .linked-in{
+     background-color:#007bb6;
+ }
+footer .facebook{
+     background-color:#3b5998;
+ }
+footer .twitter{
+     background-color:#1da1f2;
+ }
+footer .google{
+     background-color:#f63e28;
+ }
+ footer ul,li{
+    padding:0;
+    margin:0;
+}
+footer li{
+    list-style-type:none;
+}

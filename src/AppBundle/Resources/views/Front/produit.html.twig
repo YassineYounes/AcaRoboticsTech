@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+
+    <title>Produits Aca-Robotics</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{{asset('bundles/app/css/produit.css')}}" rel="stylesheet">
+
+    <link href="{{asset('bundles/app/css/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
+    <link href="{{asset('bundles/app/css/footer.css')}}" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar navbar-default ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand navbar-right" style="padding-top: 5px; padding-left: 15px;" href="./"><img src="{{asset('bundles/app/img/ACARobotics/logo.png')}}"/></a>
+    </div>
+    
+    <form class="navbar-form navbar-right">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+      <li ><a href="index.html">Acceuil</a></li>
+      <li class="active"><a href="./produit.html">Produits</a></li>
+      <li><a href="formation.html">Formations</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="well well-sm">
+        <strong>Produits</strong>
+        <div class="btn-group">
+            <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
+            </span> List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
+                class="glyphicon glyphicon-th"></span> Grid</a>
+        </div>
+    </div>
+    <div id="products" class="row list-group">
+        <div class="item  col-xs-4 col-lg-4" >
+            <div class="thumbnail">
+                <img class="group list-group-image" src="{{asset('bundles/app/img/produit/suiveur1.jpg')}}" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Suiveur de lignes</h4>
+                    <p class="group inner list-group-item-text">
+                        Un robot qui suit un chemin prédéfini.</p>
+                        <br>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                </p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="#">Commander</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="{{asset('bundles/app/img/produit/eviteur.jpg')}}" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Eviteur d’obstacles </h4>
+                    <p class="group inner list-group-item-text">
+                        Robot qui évite les obstacles rencontrés au cours de son chemin.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                </p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="#">Commander</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="{{asset('bundles/app/img/produit/distance.jpg')}}" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Communication à distance </h4>
+                    <p class="group inner list-group-item-text">
+                        Transmettre un ordre au robot à distance.
+                    </p><br>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                </p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="#">Commander</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="{{asset('bundles/app/img/produit/demo.jpg')}}" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Domotique (maison intelligente) </h4>
+                    <p class="group inner list-group-item-text">
+                        Répondre au besoin de confort dans une maison : commande  l'éclairage et du chauffage)de sécurité (alarme) et de communication (commandes à distance, signaux visuels ou sonores..).</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                </p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="#">Commander</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="copyright" >
+      <div class="container">
+        <div class="col-md-6" >
+          <p style="padding-top: 10px;">© AcaROBOTICS Technologies. All Rights Reserved.</p>
+        </div>
+    </div>
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <script src="js/produit.js"></script>
+    <script src="{{asset('bundles/app/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('bundles/app/js/produit.js')}}"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{asset('bundles/app/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('bundles/app/css/bootstrap/js/bootstrap.min.js')}}"></script>
+    <!-- Plugin JavaScript -->
+
+</body>
+</html>
